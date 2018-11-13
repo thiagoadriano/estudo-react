@@ -1,0 +1,20 @@
+{
+  "name": "estudo-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Thiago Adriano <thiago.s.adriano@gmail.com> (http://thiagoadriano.com.br/)",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-react-easy": "^0.1.9",
+    "gulp-rename": "^1.4.0",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0"
+  }
+}
