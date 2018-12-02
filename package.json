@@ -2,9 +2,11 @@
   "name": "estudo-react",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "build": "gulp"
   },
   "keywords": [],
   "author": "Thiago Adriano <thiago.s.adriano@gmail.com> (http://thiagoadriano.com.br/)",
@@ -16,5 +18,9 @@
     "gulp-rename": "^1.4.0",
     "react": "^16.6.0",
     "react-dom": "^16.6.0"
+  },
+  "devDependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.4"
   }
 }

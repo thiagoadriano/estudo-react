@@ -7,7 +7,6 @@ gulp.task('default',['js','w']);
 
 gulp.task('w', function() {
   gulp.watch('./src/js/**/*',['js']);
-
 });
 
 gulp.task('js', function() {
@@ -16,5 +15,5 @@ gulp.task('js', function() {
       debug: true // optional, false by default
     })
     .to('app.js')
-    .pipe(gulp.dest('./dist/js/'));
+    .pipe(gulp.dest('./public/js/'));
 });

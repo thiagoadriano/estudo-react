@@ -2,12 +2,20 @@ import React from 'react';
 
 class Cartao extends React.Component
 {
+  constructor(props){
+    super(props);
+    this.cliquecard = this.cliquecard.bind(this);
+  }
+  cliquecard(){
+    this.props.clique();
+  }
+
   render() {
     let dados = this.props.dados;
 
     return (
       <div className="card sticky-action">
-        <div className="card-image waves-effect waves-block waves-light">
+        <div className="card-image waves-effect waves-block waves-light" onClick={this.cliquecard}>
           <img className="activator" src={dados.img}/>
         </div>
         <div className="card-content">
